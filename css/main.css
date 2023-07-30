@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, blue, red);
+}
+h1{
+    font-size: 85px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+}
+p{
+    font-size: 35px;
+    color: #cac6c6;
+}
+.button {
+        background-image: linear-gradient(to right, #FC354C 0%, #0ABFBC  51%, #FC354C  100%);
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: rgba(19, 3, 3, 0.849);            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        border: none;
+        margin-top: 50px;
+        font-weight: 600;
+}
+.button:hover {
+        background-position: right center;
+        color: #fff;
+        text-decoration: none;
+}
+#quote , 
+#author{
+    font-size: 22.5px;
+    color: #ffffff;
+}
